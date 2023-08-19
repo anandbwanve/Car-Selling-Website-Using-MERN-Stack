@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Dekho</title>
+    <link rel="icon" href="title.png" />
+
+    <link rel="stylesheet" href="1.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navigation -->
+    <section id="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="logo.png"
+              alt="Logo"
+              class="img-fluid"
+              style="max-height: 35px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="1.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="review.html">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><b>Contact us</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- carousel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="slide1.jpg" class="d-block w-100" alt="slide1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <h3 class="text-white">Luxury Sedan</h3>
+            <p class="text-white pb-5">
+              Experience the ultimate luxury and comfort with our stunning
+              luxury sedans. Perfect for those who seek elegance and refinement.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="slide2.jpg" class="d-block w-100" alt="slide2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="text-white">Compact SUV</h3>
+            <p class="text-white pb-5">
+              Discover the power and versatility of our compact SUVs. Designed
+              for adventure, these vehicles offer exceptional performance and
+              ample cargo space.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="slide3.jpg" class="d-block w-100" alt="slide3" />
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="text-white">Electric Car</h3>
+            <p class="text-white pb-5">
+              Go green with our electric cars. Experience emission-free driving
+              and cutting-edge technology that takes you into the future of
+              automotive.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--button-->
+    <!--button-->
+    <div class="text-center p-3">
+      <a href="specials.html"><button type="button" class="btn btn-dark">Our Specials</button></a>
+    </div>
+
+    <!-- alert -->
+    <div>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <b>Exciting News!</b> We're currently having a sale. Don't miss out on
+        our amazing offers!
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+
+<!-- footrr -->
+    <div class=" my-5">
+      <section class="">
+        <!-- Footer -->
+        <footer
+          class="text-center text-white"
+          style="background-color: rgb(64, 64, 64)"
+        >
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <section class="">
+              <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">To know more About Us</span>
+                <a href="about.html"><button type="button" class="btn btn-outline-light btn-rounded">
+                  Click here 
+                </button></a>
+              </p>
+            </section>
+          </div>
+
+          <div class="text-center p-3" style="background-color: grey">
+            © 2023 Copyright:
+            <a class="text-white" href="1.html">CarKharido.in</a>
+          </div>
+        </footer>
+      </section>
+    </div>
+   
+  </body>
+</html>

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+/* Contact CSS */
+.contact{
+    padding:4rem 0 ;
+    background-image: url(bg.jpg);
+}
+.contact.info li p a{
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0.75rem 0;
+    color: var(--text-black);
+}
+.contact .form-group{
+    margin-bottom: 1.5rem;
+}
+.contact .form-control{
+    height: 3.75rem;
+    padding: 0.75rem 1.1.875rem;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 0 0.1875rem 1.25rem rgb(0 0 0 / 12%);
+}
+.contact .textarea{
+    width: 100%;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.1875rem;
+    border: none;
+    font-size: 1rem;
+    margin-top: 0.3125rem;
+    box-shadow: 0 0.1875rem 1.25rem rgb(0 0 0 / 12%);
+}
+.contact .textarea:focus{
+    outline: none;
+    border: none;
+}
+
+
+/* Footer CSS */
+.copyright{
+    background: var(--bs-black);
+}
+.copyright p,
+.copyright a{
+    color:white;
+}
+
+#header .fixed-top {
+    box-shadow: 0 0.5rem 0.75rem rgb(0 0 0 /5%);
+  }
+  
+  #header .navbar-nav .nav-item .nav-link {
+    color: black;
+    padding: 1px 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-image: url(background.jpg);
+  }
+  

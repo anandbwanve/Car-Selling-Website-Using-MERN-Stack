@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(bg-4.jpg);
+}
+
+.email-header {
+  background-image: url(bg-2.jpg);
+  box-shadow: 2rem;
+}
+
+.card {
+  background-image: url(bg-2.jpg);
+}
+
+.container {
+  background-image: url(background.jpg);
+}
+
+/* nav*/
+#header .fixed-top {
+  box-shadow: 0 0.5rem 0.75rem rgb(0 0 0 /5%);
+}
+
+#header .navbar-nav .nav-item .nav-link {
+  color: black;
+  padding: 1px 20px;
+  text-align: center;
+}
+
+nav {
+  background-image: url(background.jpg);
+}
